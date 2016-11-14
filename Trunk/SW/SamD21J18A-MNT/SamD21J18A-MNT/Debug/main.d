@@ -1,6 +1,6 @@
 main.d main.o: .././main.c .././includes.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/sam.h \
- C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/samd21j18a.h \
+ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/samd21e18a.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\4.9.3\include\stdint.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\stdint.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\arm-none-eabi\include\machine\_default_types.h \
@@ -55,27 +55,23 @@ main.d main.o: .././main.c .././includes.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sercom1.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sercom2.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sercom3.h \
- C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sercom4.h \
- C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sercom5.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sysctrl.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc3.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc4.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc5.h \
- C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc6.h \
- C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc7.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tcc0.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tcc1.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tcc2.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/usb.h \
  C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/wdt.h \
- C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/pio/samd21j18a.h \
+ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/pio/samd21e18a.h \
  .././defines.h .././usart.h .././globalfunctions.h .././clocks.h
 
 .././includes.h:
 
 C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/sam.h:
 
-C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/samd21j18a.h:
+C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/samd21e18a.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\arm\arm-gnu-toolchain\lib\gcc\arm-none-eabi\4.9.3\include\stdint.h:
 
@@ -185,10 +181,6 @@ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a
 
 C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sercom3.h:
 
-C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sercom4.h:
-
-C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sercom5.h:
-
 C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/sysctrl.h:
 
 C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc3.h:
@@ -196,10 +188,6 @@ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a
 C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc4.h:
 
 C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc5.h:
-
-C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc6.h:
-
-C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tc7.h:
 
 C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/tcc0.h:
 
@@ -211,7 +199,7 @@ C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a
 
 C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/instance/wdt.h:
 
-C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/pio/samd21j18a.h:
+C:\Program\ Files\ (x86)\Atmel\Studio\7.0\Packs\atmel\SAMD21_DFP\1.0.231\samd21a\include/pio/samd21e18a.h:
 
 .././defines.h:
 

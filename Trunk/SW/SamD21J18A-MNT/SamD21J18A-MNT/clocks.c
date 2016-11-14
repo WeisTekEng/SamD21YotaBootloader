@@ -53,7 +53,7 @@ void init_clocks(void)
 	/*wait for sync*/
 	while (GCLK->STATUS.reg & GCLK_STATUS_SYNCBUSY);
 	
-	/*write the Gen clock 0 configureation*/
+	/*write the Gen clock 0 configuration*/
 	GCLK->GENCTRL.reg = GCLK_GENCTRL_ID(GEN_CLOCK_GENERATOR_ZERO) |
 						GCLK_GENCTRL_SRC_OSC8M | 
 						GCLK_GENCTRL_GENEN;
@@ -68,7 +68,7 @@ void init_clocks(void)
 	/*wait for sync*/
 	while (GCLK->STATUS.reg & GCLK_STATUS_SYNCBUSY);
 	
-	/*write the Gen clock 0 configureation*/
+	/*write the Gen clock 0 configuration*/
 	GCLK->GENCTRL.reg = GCLK_GENCTRL_ID(GEN_CLOCK_GENERATOR_ONE) |
 	GCLK_GENCTRL_SRC_OSC8M |
 	GCLK_GENCTRL_GENEN;
