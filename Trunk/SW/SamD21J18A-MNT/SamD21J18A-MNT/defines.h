@@ -55,6 +55,9 @@ bool specialTalk;																											/*used for talking to an experimenti
 #define BOOT_SERCOM							SERCOM0																			/*miniSam uses Sercom1 for USART*/
 #define BOOT_SERCOM_BAUD					115200
 #define BOOT_PORT							0
+#define TWI_SERCOM							SERCOM1
+#define TWI_SDA								pin_set_peripheral_function(PINMUX_PA04D_SERCOM0_PAD0)
+#define TWI_SDL								pin_set_peripheral_function(PINMUX_PA05D_SERCOM0_PAD1)
 
 
 /*quick defines for testing*/

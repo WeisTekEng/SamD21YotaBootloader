@@ -42,6 +42,18 @@
       <ToolName>Atmel-ICE</ToolName>
     </com_atmel_avrdbg_tool_atmelice>
     <avrtoolinterfaceclock>2000000</avrtoolinterfaceclock>
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+  <options />
+  <configurations />
+  <files />
+  <documentation help="" />
+  <offline-documentation help="" />
+  <dependencies>
+    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.31.0" />
+  </dependencies>
+</framework-data>
+    </AsfFrameworkConfig>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <ToolchainSettings>
@@ -172,9 +184,9 @@
     <None Include="Device_Startup\samd21e18a_sram.ld">
       <SubType>compile</SubType>
     </None>
-    <None Include="i2c.c">
+    <Compile Include="i2c.c">
       <SubType>compile</SubType>
-    </None>
+    </Compile>
     <None Include="i2c.h">
       <SubType>compile</SubType>
     </None>

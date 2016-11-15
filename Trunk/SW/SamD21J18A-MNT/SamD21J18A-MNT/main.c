@@ -64,6 +64,11 @@ void setup_ptrs()
 	sendConfirm();
 }
 
+void enable_interrupts()
+{
+	NVIC_EnableIRQ(SERCOM1_IRQn);
+}
+
 int main(void)
 {  
 	
@@ -97,6 +102,7 @@ int main(void)
 
 	/* Config Usart */
 	UART_sercom_init();
+	init_twi();
 
 	
 	/*set PA14 LED to output and turn on, now we know we are in bootloader mode.*/

@@ -20,7 +20,7 @@
 #include "usart.h"
 #include "globalfunctions.h"
 
-#if 0
+#if 1
 	#include "i2c.h"
 #endif
 

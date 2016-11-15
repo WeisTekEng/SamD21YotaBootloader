@@ -10,6 +10,8 @@ Device_Startup\system_samd21.c
 
 globalfunctions.c
 
+i2c.c
+
 main.c
 
 nvmctrl.c
